@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Slider</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Alata", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .sample{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+    }
+    .container1{
+    background-color: #695ACD;
+    text-align: center;
+    height: auto;
+    max-width:75rem;
+    overflow: auto;
+    box-shadow: 3px 3px 3px grey ;
+    }
+    img{
+        height: 190px;
+        border-radius: 15px;
+        margin-bottom: 3px;
+        margin-top: 5px;
+        border-radius:20%;
+        box-shadow: 3px 3px 3px black;
+    }
+    
+    a{
+        text-decoration: none;
+        color:whitesmoke;
+    }
+    .h21{
+        font-size: xx-small;
+    }
+    button{
+        padding: 6px 15px;
+        background-color: #1877F2;
+        border-style: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 13px;
+        box-shadow: 2px 2px 2px black;
+        margin-bottom: 6px;
+        row-gap: 8px;
+    }
+
+    
+
+</style>
+<body>
+    <div class="sample">
+    <div class="container1">
+        <img src="IMG_9409.jpg" alt="profilepicture" id="im1" >
+        <h2 id="h21">I’m Hanish, a passionate developer with expertise in HTML, CSS, JavaScript, MySQL, Python, and Java. I enjoy solving problems, building responsive web applications, and constantly learning new technologies. Beyond coding, I love exploring ways to optimize performance and enhance user experiences. In my free time, I dive into tech articles, contribute to open-source projects, and refine my skills. I firmly believe in continuous growth and strive to create solutions that make a difference.</h2>
+        <button><a href="https://www.linkedin.com/in/hanish-p-03h/"  target="_blank" rel="noopener noreferrer" id="li1" >Linkedin</a></button>
+        
+        <button><a href="https://x.com/hanish1dev"  target="_blank" rel="noopener noreferrer" id="li1">Twitter</a></button>
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
