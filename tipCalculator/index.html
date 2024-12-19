@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Geist+Mono:wght@100..900&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="sample">
+      <div class="container">
+        <h1>Tip Calculator</h1>
+        <p>Enter the bill amount and tip percentage to calculate the total.</p>
+        <form action="#" method="post">
+          <label for="billamount">Bill Amount:</label> <br />
+          <input type="number" id="billamount" value="" /> <br />
+          <label for="tippercentage">Tip percentage:</label> <br />
+          <input type="number" id="tipamount" value="" /> <br />
+          <button type="button" id="calbtn">Calculate</button> <br />
+        </form>
+        <h3>Tip: $<span id="tip"> </span></h3>
+        <h3>Total: $<span id="total"> </span></h3>
+        <div class="personal">
+          <button type="button" id="profile">
+            <a
+              href="https://www.linkedin.com/in/hanish-p-03h"
+              target="_blank"
+              rel="noopener noreferrer"
+              >linkedin</a
+            >
+          </button>
+          <button type="button" id="profile">
+            <a
+              href="https://x.com/hanish1dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
