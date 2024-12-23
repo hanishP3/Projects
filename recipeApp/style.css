@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Geist+Mono:wght@100..900&family=Nova+Mono&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Nova Mono", serif,Arial, Helvetica, sans-serif; 
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #FFE9C9;
+}
+.logo{
+    text-align: center;
+    padding: 20px;
+    background-color:#FFAC4A;
+    color: black;
+
+}
+.logo > h1{
+    font-size: xx-large;
+    font-family: "Nova Mono", serif,Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+.rightul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color:#ff9a55 ;
+    font-size: 30px;
+}
+.rightul>li>a{
+    color: black;
+}
+.right{
+    box-shadow: 3px 3px 3px grey;
+}
+.form{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#userinput{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+}
+#btn{
+    background-color: #b01d2f;
+    padding: 12px 15px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 2px grey ;
+    cursor: pointer;
+}
+
+.mainbody{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px grey;
+    height: auto;
+    font-size: smaller;
+    width: auto;
+}
+.boldheading{
+    color: brown;
+    font-size: larger
+}
+.defrecipe{
+    margin: 10px;
+}
+#imgg{
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px grey;
+}
+#submitbtn{
+    background-color: #b01d2f;
+    padding: 8px 13px;
+    margin-top: 2px ;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+}
+#videolink{
+    color: aliceblue;
+}
+#submitbtn:hover{
+    border: solid 1px black
+}
+#btn:focus{
+    border: solid 1px black;
+}
+#userinput:focus{
+    border: solid 2px black;
+}

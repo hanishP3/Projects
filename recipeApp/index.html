@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe Vault</title>
-</head>
-<body>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
     <div class="nav">
-        <div class="logo">
-            <h1>Recipe Vault</h1>
-        </div>
-        <div class="right">
-            <ul>
-                <li><a href="">Linkedin</a></li>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Github</a></li>
-            </ul>
-        </div>
+      <div class="logo">
+        <h1>🥤Recipe Vault🍗</h1>
+      </div>
+      <div class="right">
+        <ul class="rightul">
+          <li><a href="https://www.linkedin.com/in/hanish-p-03h/" target="_blank" rel="noopener noreferrer" >Linkedin</a></li>
+          <li><a href="https://x.com/hanish1dev"target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a href="https://github.com/hanishP3"target="_blank" rel="noopener noreferrer">Github</a></li>
+        </ul>
+      </div>
     </div>
     <div class="form">
-        <input type="text" id="userinput" value="" placeholder="Enter Recipe Name">
-        <button type="submit" id="btn">Submit</button>
+      <input
+        type="text"
+        id="userinput"
+        value=""
+        placeholder="Enter Recipe Name"
+      />
+      <button type="submit" id="btn">Submit</button>
     </div>
-    <div class="body">
-        <div class="defrecipe" >
-            <img src="" alt="defimg" id="imgg" style="width: 150px;">
-            <h2>Name: <span id="name"></span> </h2>
-            <h3>Originated: <span id="origin"></span> </h3>
-            <h3>Category: <span id="category"></span> </h3>
-            <h3>Ingredients: <span id="ingre"></span> </h3>
-            <h3>Recipe: <p id="recipe"></p></h3>
-           <button type="submit"><a href="" id="videolink" target="_blank">Watch Video</a>
-           </button>
-        </div>
+    <div class="mainbody">
+      <div class="defrecipe">
+        <img src="kfc.jpg" alt="recipeimg" id="imgg" style="width: 150px" />
     </div>
-</body>
-<script src="index.js"></script>
+    <div class="mainmatter">
+        <h2><span class="boldheading">Name:</span> <span id="name">Kentucky Fried Chicken</span></h2>
+        <h3><span class="boldheading">Originated: </span> <span id="origin">American</span></h3>
+        <h3><span class="boldheading">Category: </span> <span id="category">Chicken</span></h3>
+        <h3><span class="boldheading">Ingredients: </span> <span id="ingre">Chicken - 1 whole, Oil - 2 quarts neutral frying, Egg White - 1, Flour - 1 1/2 cups , Brown Sugar - 1 tablespoon, Salt - 1 tablespoon, paprika - 1 tablespoon, onion salt - 2 teaspoons, chili powder - 1 teaspoon, black pepper - 1 teaspoon, celery salt - 1/2 teaspoon, sage - 1/2 teaspoon, garlic powder - 1/2 teaspoon, allspice - 1/2 teaspoon, oregano - 1/2 teaspoon, basil - 1/2 teaspoon, marjoram - 1/2 teaspoon</span></h3>
+        <h3>
+          <span class="boldheading">Recipe: </span>
+          <p id="recipe">Preheat fryer to 350°F. Thoroughly mix together all the spice mix ingredients. Combine spice mix with flour, brown sugar and salt. Dip chicken pieces in egg white to lightly coat them, then transfer to flour mixture. Turn a few times and make sure the flour mix is really stuck to the chicken. Repeat with all the chicken pieces. Let chicken pieces rest for 5 minutes so crust has a chance to dry a bit. Fry chicken in batches. Breasts and wings should take 12-14 minutes, and legs and thighs will need a few more minutes. Chicken pieces are done when a meat thermometer inserted into the thickest part reads 165°F. Let chicken drain on a few paper towels when it comes out of the fryer. Serve hot.</p>
+        </h3>
+        <button type="submit" id="submitbtn">
+          <a href="https://www.youtube.com/watch?v=PTUxCvCz8Bc" id="videolink" target="_blank">Watch Video</a>
+        </button>
+    </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
 </html>
