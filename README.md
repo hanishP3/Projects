@@ -9,5 +9,6 @@ This repository contains basic web development projects showcasing fundamental c
 - [Live Link](https://hanishp3.github.io/Projects/tipCalculator/)
 - **Age Calculator**: This is a simple Age calculator that takes the user's date of birth and outputs their age. It uses HTML, CSS, and JavaScript.
 - [Live Link](https://hanishp3.github.io/Projects/ageCalculator/)
-
+- **Recipe Vault**: This is a Recipe App  that takes the user's input of a recipe name and displays the complete recipe, including Name, Origin, Category, Recipe, and a Video link. It uses Javascript, API integration from mealDb, HTML, and CSS.
+- [Live Link](https://hanishp3.github.io/Projects/recipeApp/)
 
