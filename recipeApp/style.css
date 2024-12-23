@@ -10,7 +10,7 @@ body{
     height: 100vh;
     width: 100vw;
     background: #FFE9C9;
-    line-height: 2;
+    /* line-height: 2; */
 }
 .logo{
     text-align: center;
@@ -62,9 +62,6 @@ body{
     border: none;
     box-shadow: 2px 2px 2px grey ;
     cursor: pointer;
-}
-.mainmatter{
-    font-size: large;
 }
 .mainbody{
     display: flex;
