@@ -63,7 +63,9 @@ body{
     box-shadow: 2px 2px 2px grey ;
     cursor: pointer;
 }
-
+.mainmatter{
+    font-size: large;
+}
 .mainbody{
     display: flex;
     align-items: center;
